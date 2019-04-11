@@ -1,0 +1,98 @@
+<html>
+<head>
+    <style>
+        body {
+            color: #333;
+        }
+        #container {
+            display: flex;           /* establish flex container */
+            flex-direction: column;  /* make main axis vertical */
+            /* justify-content: center; */ /* center items vertically, in this case */
+            align-items: center;     /* center items horizontally, in this case */
+            height: 300px;
+        }
+
+        .box {
+            width: 500px;
+            margin: 5px;
+            text-align: center;     /* will center text in <p>, which is not a flex item */
+        }
+        img {
+            margin-top: 50px;
+            width: 100%;
+        }
+        .contact_form {
+            text-align:left;
+        }
+        .contact {
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        input, textarea {
+            width: 100%;
+
+        }
+        a {
+            color: #2b7bc1;
+        }
+        a:hover {
+            color: black;
+        }
+        h4{
+            color: #4798bd;
+        }
+    </style>
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<script>
+  UPLOADCARE_LOCALE = "en";
+  UPLOADCARE_TABS = "file url gdrive dropbox skydrive";
+  UPLOADCARE_PUBLIC_KEY = "98adf0e80bc0e3410686";
+</script>
+<script charset="utf-8" src="https://ucarecdn.com/libs/widget/3.6.1/uploadcare.full.min.js"></script>
+<title>Fab15: Collectively Independent</title>
+</head>
+<body>
+    <div id="container">
+        <div class="box">
+            <img src="logo.png" alt="FAB15 Egypt"/>
+            <h1>Collectively Independent</h1>
+            <h2>July 28th to August 4th, 2019</h2>
+            <h2>Egypt</h2>
+            <h3>Cairo and El Gouna</h3>
+            <h4>More details will be announced soon.</h4>
+            <br><br>
+            <div class="contact">
+                <form class="contact_form pure-form pure-form-stacked" action="https://formspree.io/fab15squad@gmail.com"
+                method="POST">
+                <fieldset>
+                    <legend>Interested in joining the Fab15 team?</legend>
+                    <label for="name"> Name:     <input type="text" name="name"></label>
+                    <label for="email"> Email: 
+                        <input type="email" name="_replyto"></label>
+                    <label for="phone_number">
+                        Phone number: 
+                        <input type="text" name="phone_number">
+                    </label>
+                    <label for="_subject">
+                        Subject: 
+                        <input type="text" name="_subject" value="Fab15 job application" />
+                    </label>
+                    
+                    <label for="why_join">
+                        Why do you want to join our team?
+                        <textarea name="why_join" rows="10" columns="40"></textarea><br>
+                    </label>
+                    <label for="cv">
+                        CV:
+                        <input type="hidden" role="uploadcare-uploader" name="cv" data-crop="disabled" />
+                    </label><br>
+                    <button type="submit" class="pure-button pure-button-primary">Send</button>
+                    </fieldset>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
