@@ -1,13 +1,113 @@
 .carousel-caption h1,h2,h3,h4,h5,h6{
   color: black;
 }
+#gen
+{
+  width: 50px; 
+  height: 50px; 
+  margin-left: 48%;
+}
+#blast
+{
+  display: flex !important; 
+  margin-left: 160px;
 
+}
+.facebook
+{
+  font-size: 18px;
+    display: inline-block;
+    background-color: #222636;
+    color: #eee !important;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+#bt
+{
+  color: #fff;
+    background: #f7911e;
+    padding: 7px 22px;
+    border-radius: 50px;
+    border: 2px solid #f7911e;
+    transition: all ease-in-out 0.3s;
+    font-weight: 500;
+    margin-left: 8px;
+    margin-top: 2px;
+    line-height: 1;
+    font-size: 13px;
+    margin-left: 400px;
+}
+#bt:hover
+{
+  background-color: #0dd5b7;
+  border-color: #0dd5b7;
+}
+.twitter
+{
+  font-size: 18px;
+    display: inline-block;
+    background-color:  #222636;
+    color: #eee !important;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+.facebook:hover
+{
+
+    display: inline-block;
+    background: #f39200;
+
+}
+#ic
+{
+  width: 100px; 
+  height: 100px;
+  margin-left: 39%;
+}
+.twitter:hover
+{
+ 
+    background: #f39200;
+}
+#cen
+{
+      display: flex !important;
+    margin-left: 240px;
+}
+#two-cities
+{
+  text-align: justify !important;
+}
+#collect
+{
+  text-align: justify !important;
+}
 .carousel-caption p{
   color: black;
   font-family: inherit;
   font-size: 20px;
 }
-
+#buses-reqs
+{
+  text-align: justify !important;
+  margin-left: 100px;
+}
+#reqs
+{
+  text-align: justify !important;
+}
 .carousel-caption
 {
   bottom: 300px !important;
@@ -19,6 +119,11 @@
 }
 
 #po
+{
+  display: none;
+}
+
+#fl
 {
   display: none;
 }
@@ -174,6 +279,10 @@ body::-webkit-scrollbar-thumb:hover {
   line-height: 14px;
 
 }
+#todo
+{
+  text-align: justify !important;
+}
 .p1
 {
   line-height: 20px;
@@ -191,12 +300,20 @@ body::-webkit-scrollbar-thumb:hover {
     background: url("../img/icons/Backgrounds/Back 5.png");
     background-size: contain;
     color: white;
+    margin-bottom: -30px;
+    text-align: justify !important; 
 }
 #ps
 {
   margin-top: 30px;
 }
 .speak1 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 452px;
+}
+.speak12 {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
@@ -226,7 +343,155 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media only screen and (min-width: 300px) and (max-width: 768px)
 {
+  #jul
+  {
+    line-height: 0px !important;
+    margin-top: -20px;
+  }
+  #schedule
+  {
+    background: url(../img/icons/1.png) !important;
+  }
+  #gen
+  {
+    margin-left: 44%;
+  }
+  #ic
+{
+  width: 100px; 
+  height: 100px;
+  margin-left: 35%;
+}
+  #tab1
+  { 
+    margin-left: 0px !important;
+  }
+  #app .nav-tabs
+  {
+    margin-left: 0px !important;
+    display: block;
+  }
+  #bt
+  {
+    margin-left: 200px !important;
+  }
+  .twitter
+  {
+    width: 36px !important;
+  }
+  .facebook
+  {
+    width: 36px !important;
+  }
+  .speak12 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 75px !important;
+  }
+  .carousel-inner
+  {
+    background-color: black !important;
+    height: 192px;
+  }
+    #tips
+  {
+    height: 2080px !important;
+  }
+  .form-row
+  {
+    display: none;
+  }
+  #format
+  {
+    display: none !important;
+  }
+  #forms
+  {
+    display: block !important;
+    margin-left: 5px;
+  }
+  #format
+  {
+    display: block !important;
+    margin-left: 40px; 
+  }
+  #forma
+  {
+    display: none !important;
+  }
+  
+  .carousel
+  {
+    margin-top: 70px;
+  }
+  #wh
+  {
+    margin-left: 0px !important;
+  }
+  #accom
+  {
+    margin-top: 70px !important;
+  }
+  .section-header h2
+  {
+    font-size: 20px;
+  }
+  #strip
+  {
+    display: none;
+  }
+  .img-fluid
+  {
+    margin-left: 0px !important;
+  }
+}
 
+@media only screen and (min-width: 300px) and (max-width: 768px)
+{
+  #gen
+  {
+    margin-left: 44%;
+  }
+  #ic
+{
+  width: 100px; 
+  height: 100px;
+  margin-left: 35%;
+}
+  #tab1
+  { 
+    margin-left: 0px !important;
+  }
+  #app .nav-tabs
+  {
+    margin-left: 0px !important;
+    display: block;
+  }
+  #bt
+  {
+    margin-left: 200px !important;
+  }
+  .twitter
+  {
+    width: 36px !important;
+    margin-left: 20px !important;
+  }
+  .facebook
+  {
+    width: 36px !important;
+    margin-left: 20px !important;
+  }
+  .speak12 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 75px !important;
+  }
+    #tips
+  {
+    height: 2080px !important;
+  }
   .carousel-inner
   {
     background-color: black !important;
@@ -238,7 +503,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   #format
   {
-    display: none !important;
+    display: block !important;
   }
   #forms
   {
@@ -277,7 +542,45 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media only screen and (min-width: 768px) and (max-width: 1199px)
 {
-
+  #gen
+  {
+    margin-left: 44%;
+  }
+  #ic
+{
+  width: 100px; 
+  height: 100px;
+  margin-left: 35%;
+}
+ #tab1
+  { 
+    margin-left: 0px !important;
+  }
+  #app .nav-tabs
+  {
+    margin-left: 0px !important;
+    display: block;
+  }
+  #bt
+  {
+    margin-left: 200px !important;
+  }
+  .twitter
+  {
+    width: 36px !important;
+    margin-left: 20px !important;
+  }
+  .facebook
+  {
+    width: 36px !important;
+    margin-left: 20px !important;
+  }
+  .speak12 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 75px !important;
+  }
   .carousel-inner
   {
     background-color: black !important;
@@ -324,15 +627,70 @@ body::-webkit-scrollbar-thumb:hover {
   {
     margin-left: 0px !important;
   }
+    #tips
+  {
+    height: 1500px !important;
+  }
+   #security
+  {
+    height: 1500px !important;
+  }
 }
 @media only screen and (min-width: 1024px )  and (max-width: 1024px)
 {
+  #gen
+  {
+    margin-left: 44%;
+  }
+   #security
+  {
+    height: 1500px !important;
+  }
+  #ic
+{
+  width: 100px; 
+  height: 100px;
+  margin-left: 35%;
+}
+  #tab1
+  { 
+    margin-left: 0px !important;
+  }
+  #app .nav-tabs
+  {
+    margin-left: 0px !important;
+    display: block;
+  }
+  #bt
+  {
+    margin-left: 200px !important;
+  }
+  .twitter
+  {
+    width: 36px !important;
+    margin-left: 20px !important;
+  }
+  .facebook
+  {
+    width: 36px !important;
+    margin-left: 20px !important;
+  }
+  .speak12 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 75px !important;
+  }
   .carousel-inner
   {
     background-color: black !important;
     height: 192px;
   }
   #forms
+  {
+    display: none;
+  }
+  #format
   {
     display: none;
   }
@@ -360,6 +718,10 @@ body::-webkit-scrollbar-thumb:hover {
   {
     margin-left: 0px !important;
   }
+    #tips
+  {
+    height: 2080px !important;
+  }
 }
 #forms
 {
@@ -370,9 +732,56 @@ body::-webkit-scrollbar-thumb:hover {
 {
   display: none;
 }
-
-@media only screen and (max-width: 768px)
+#format
 {
+  display: none;
+}
+
+@media only screen and (max-width: 767px)
+{
+  #gen
+  {
+    margin-left: 44%;
+  }
+   #security
+  {
+    height: 1500px !important;
+  }
+  #ic
+{
+  width: 100px; 
+  height: 100px;
+  margin-left: 35%;
+}
+  #tab1
+  { 
+    margin-left: 0px !important;
+  }
+  #app .nav-tabs
+  {
+    margin-left: 0px !important;
+    display: block;
+  }
+  #bt
+  {
+    margin-left: 200px !important;
+  }
+  .twitter
+  {
+    width: 36px !important;
+    margin-left: 20px !important;
+  }
+  .facebook
+  {
+    width: 36px !important;
+    margin-left: 20px !important;
+  }
+  .speak12 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 75px !important;
+  }
   .carousel-inner
   {
     background-color: black !important;
@@ -393,7 +802,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   #tips
   {
-    height: 1750px !important;
+    height: 2000px !important;
   }
   #pc
   {
@@ -420,10 +829,57 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media only screen and (max-width: 1440px) and (min-width: 1440px)
 {
+  #gen
+  {
+    margin-left: 44%;
+  }
+   #security
+  {
+    height: 1500px !important;
+  }
+  #ic
+{
+  width: 100px; 
+  height: 100px;
+  margin-left: 35%;
+}
+  #tab1
+  { 
+    margin-left: 0px !important;
+  }
+  #app .nav-tabs
+  {
+    margin-left: 0px !important;
+    display: block;
+  }
+  #bt
+  {
+    margin-left: 200px !important;
+  }
+ .twitter
+  {
+    width: 36px !important;
+    margin-left: 20px !important;
+  }
+  .facebook
+  {
+    width: 36px !important;
+    margin-left: 20px !important;
+  }
+  .speak12 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 75px !important;
+  }
   .carousel-inner
   {
     background-color: black !important;
     height: 192px;
+  }
+    #tips
+  {
+    height: 2080px !important;
   }
   #logo
   {
@@ -449,16 +905,67 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media only screen and (max-width: 1248px) and (min-width: 769px)
 {
+  #gen
+  {
+    margin-left: 44%;
+  }
+   #security
+  {
+    height: 1500px !important;
+  }
+  #ic
+{
+  width: 100px; 
+  height: 100px;
+  margin-left: 35%;
+}
+  #tab1
+  { 
+    margin-left: 0px !important;
+  }
+  #app .nav-tabs
+  {
+    margin-left: 0px !important;
+    display: block;
+  }
+  #bt
+  {
+    margin-left: 200px !important;
+  }
+ .twitter
+  {
+    width: 36px !important;
+    margin-left: 20px !important;
+  }
+  .facebook
+  {
+    width: 36px !important;
+    margin-left: 20px !important;
+  }
+  .speak12 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 75px !important;
+  }
   .carousel-inner
   {
     background-color: black !important;
     height: 192px;
+  }
+    #tips
+  {
+    height: 2080px !important;
   }
   #strip
   {
     display: none
   }
   #forms
+  {
+    display: none;
+  }
+  #format
   {
     display: none;
   }
@@ -490,7 +997,14 @@ body::-webkit-scrollbar-thumb:hover {
 }
 #security
 {
-  margin-top: 80px;
+  background: url("../img/icons/Backgrounds/Back 1.png");
+  background-size: contain;
+  height: 690px;
+  text-align: justify !important;
+}
+#security
+{
+  margin-bottom: -10px;
 }
 #name
 {
@@ -525,7 +1039,7 @@ body::-webkit-scrollbar-thumb:hover {
 #schedule
 {
   background: url("../img/test.png");
-    background-repeat: no-repeat;
+    background-repeat: round;
   background-color: white;
 }
 #strip

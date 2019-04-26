@@ -1,10 +1,3 @@
-/*
-  Theme Name: TheEvent
-  Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -14,6 +7,11 @@ body {
   color: #2f3138;
   font-family: 'Montserrat';
  
+}
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
 }
 
 @font-face
@@ -444,7 +442,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #f82249;
+  color: orange;
 }
 
 #mobile-nav ul li li {
@@ -809,7 +807,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details .social a:hover {
-  background: #f82249;
+  background: #f48120;
   color: #fff;
 }
 
@@ -821,10 +819,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
+  text-align: justify !important;
 }
 
 #speakers a:hover{
-	color: #4875B4 !important;
+	color: #f7911e !important;
 }
 
 #speakers h3>a:hover{
@@ -952,9 +951,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #app .nav-tabs {
   text-align: center;
   margin: auto;
-  display: block;
+  display: flex;
   border-bottom: 0;
   margin-bottom: 30px;
+  margin-left: 80px;
 }
 
 #app .nav-tabs li {
@@ -966,10 +966,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   border-radius: 50px;
   font-weight: 600;
-
+  width: 320px;
   background-color: #f7911e;
   color: #fff;
-  padding: 10px 100px;
 }
 
 #app .nav-tabs a.active {
@@ -1254,7 +1253,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #sponsors .sponsor-logo:hover img {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 #sponsors img {
@@ -1588,6 +1587,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
   font-family: inherit;
   color: #fff;
+  text-align: justify;
 }
 
 #footer .footer-top .social-links a {
@@ -1606,7 +1606,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f82249;
+  background: #f39200;
   color: #fff;
 }
 
