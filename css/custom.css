@@ -1,6 +1,9 @@
 .carousel-caption h1,h2,h3,h4,h5,h6{
   color: black;
 }
+#text{
+display:none;
+}
 #gen
 {
   width: 50px; 
@@ -888,6 +891,7 @@ body::-webkit-scrollbar-thumb:hover {
   #nav-menu-container
   {
     margin-left: 272px !important;
+    width: 1000px;
   }
   #strip
   {

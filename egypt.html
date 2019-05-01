@@ -71,6 +71,7 @@
               <li class="menu-active"><a href="egypt.html">Egypt</a>
             <ul>
               <li><a href="#todo">Things to do in Egypt</a></li>
+              <li><a href="#tours">Tours</a></li>
               <li><a href="#weather">Weather</a></li>
               <li><a href="#tips">General Tips</a></li>
               <li><a href="#security">Security Precautions</a></li>
@@ -229,7 +230,75 @@
         </div>
    
     </section>
+    <section id="tours" class="section-with-bg">
 
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Tours</h2>
+        </div>
+          <p>There will be two tours available daily before and after the Fab15 conference: starting <b>July 24th until July 26th</b> and again from <b>August 5th until August 9th</b>. You can only book one tour per day. All tours will start at 9 a.m., and the transportation available will be a Toyota HiAce minivan.</p>
+          <p>The pick up location will be based on hotels’ locations; hence, will be determined after booking your accommodation.</p>
+          <p>The cost for each tour includes: entrance ticket, transportation, and tour guide compensation.</p>
+          <p>To book your tour(s), kindly send an email to anyossef@intratour-eg , or call through telephone: +227360181 , or mobile: +201280222683 stating: your name, tour name, and date preference.</p>
+          <b><p>Deadline for booking your tour(s) is June 30th</p></b>
+          <div class="section-header">
+          <p>First Tour: Giza Pyramids & Egyptian Museum<br>
+            This tour costs $39/person</p>
+            
+      </div>
+      <div class="row">
+              
+              <div class="col-lg-6">
+            <img src="img/venue-gallery/egypt-2006-2.jpg" style="width: 500px; height: 350px;">
+            <ul>
+              <b><li style="text-align: left;">1- Giza Pyramids - Duration: 3 hours <br><br></b>
+                <p style="text-align: justify;">The last remaining wonder of the ancient world! For nearly 4000 years, the Pyramids of Giza have amazed people all around the world and raised many questions as to how they were built and who built them? During a 3-hours tour, you will get to visit the awe-inspiring Pyramids and the Great Sphinx, believed to be an astronomical clock.</span></p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/venue-gallery/Egyptian-Museum.jpg" style="width: 500px; height: 350px;">
+            <ul>
+              <b><li style="text-align: left;">2- Egyptian Museum - Duration: 2 hours <br><br></b>
+                <p style="text-align: justify;">No Egypt tour is complete without a visit to the Egyptian Museum in Cairo. The Egyptian Museum holds over 120,000 artefacts from mummies and sarcophagi, to pottery, jewellery, and  King Tutankhamun’s treasures. On your 2-hours tour, you will get to explore 15,000 sq. meters of Ancient Egypt’s historic treasures.</p>
+              </li>
+            </ul>
+          </div>
+          
+          </div>
+          <div class="section-header">
+          <p>Second Tour: Museum of Islamic Art & Salah El Din Citadel Citadel<br>
+              This tour costs $36/person</p>
+      </div>
+      <div class="row">
+              
+              <div class="col-lg-6">
+            <img src="img/venue-gallery/museum.JPG" style="width: 500px; height: 350px;">
+            <ul>
+              <b><li style="text-align: left;">1- Museum of Islamic Art - Duration: 1 hour<br><br></b>
+                <p style="text-align: justify;">The Museum of Islamic Art in Cairo is considered one of Egypt’s most curated museums. It is home to one of the finest Islamic art collections in the world. The collection includes rare manuscripts of the Qur'an, with some calligraphy written in silver ink on pages with elaborate borders. Exceptional works showcased include artefacts of rare woodwork, plaster, metal, ceramic, crystal, glass, and textiles from different periods from all around the globe. The museum showcases about 4,500 artefacts, which is only a fraction of the amount of artefacts it owns. </p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/venue-gallery/cairo-citadel-2.jpg" style="width: 500px; height: 350px;">
+            <ul>
+              <b><li style="text-align: left;">2- Salah El Din Citadel - Duration: 2 hours<br><br></b>
+                <p style="text-align: justify;">The Citadel, a  UNESCO World Heritage site, is a medieval Islamic fortification commissioned by Salah El Din El Ayouby, <span id="text">also known as Saladin, founder of the Ayyubid Caliphate and completed in 1183. It is located in the Mokattam area in Cairo and is part of Historic Islamic Cairo. 
+The Citadel was built to act as a fortification against threats of invasion by the Crusaders, and later on it became the seat of  the government. Since then, the Citadel has always played a major political role and protected Egypt against a number of attacks. 
+Many dynasties took turns ruling Egypt, including the Ayyubid, Mamluks and Ottomans. You will find Mohamed Ali Mosque, a great example of the Ottoman architecture in Egypt, The Mamluks Mosque of El Nasser Mohamed, as well as the Mosque of Suleiman Pasha El Khadim. The Citadel doesn’t only include mosques, but also four exquisite museums, which are  the Military Museum, the Police Museum, the Royal Carriages Museum, and the Qasr El Gawhara Museum. There’s a lot of history behind the Citadel’s wall ready to be explored.</span></p>
+<div class="btn-container">
+<button id="toggle">Read More</button>
+</div>
+              </li>
+            </ul>
+          </div>
+          
+          </div>
+        </div>
+
+    </section>
     <section id="weather" class="wow fadeInUp">
        <div class="container">
         <div class="section-header">
@@ -373,7 +442,22 @@
   <script src="lib/wow/wow.min.js"></script>
   <script src="lib/venobox/venobox.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+  <script>
+    $(document).ready(function() {
+  $("#toggle").click(function() {
+    var elem = $("#toggle").text();
+    if (elem == "Read More") {
+      //Stuff to do when btn is in the read more state
+      $("#toggle").text("Read Less");
+      $("#text").slideDown();
+    } else {
+      //Stuff to do when btn is in the read less state
+      $("#toggle").text("Read More");
+      $("#text").slideUp();
+    }
+  });
+  });
+</script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
